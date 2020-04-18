@@ -3,6 +3,7 @@ import { StyleSheet, SafeAreaView, ScrollView } from 'react-native';
 import { Header } from './src/components/Header';
 import { Forecast } from './src/components/Forecast';
 import { CurrentConditions } from './src/components/CurrentConditions';
+import { Chart } from './src/components/Chart';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Header />
         <Forecast />
         <CurrentConditions />
+        <Chart />
       </ScrollView>
       <SafeAreaView style={{ backgroundColor: '#6699CC' }} />
     </>
